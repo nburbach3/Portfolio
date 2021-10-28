@@ -1,10 +1,8 @@
-import { prefix } from '../../prefix.js';
-
 export const projects = [
   {
     title: 'Exercise Tracker',
     description: "Using Java, CSS, & SQL, I built a desktop application to help people track exercise progress overtime. I built this because I am an avid weightlifter and wanted a way to visualize my progress without having to pay for a premium app.",
-      image: `${prefix}/images/exerciseTrackerIcon.png`,
+      image: `./images/exerciseTrackerIcon.png`,
       tags: ['Java', 'SQL', 'CSS', 'JDBC'],
     source: 'https://github.com/nburbach3/ExerciseTracker',
     id: 0,
@@ -12,7 +10,7 @@ export const projects = [
   {
     title: 'Comic Library',
     description:"2021 UNL Hackathon project - My partner and I created a comic book library that allows users to store, organize, and search comics with a GUI using metadata acquired from Comic Vine API. It also has the ability to open individual comics for users to read using MComix.",
-    image: `${prefix}/images/Comic_Orchard.png`,
+    image: `./images/Comic_Orchard.png`,
     tags: ['Python', 'SQL', 'TKinter', 'MComix', 'Comic Vine API'],
     source: 'https://github.com/GianniBYoung/ComicOrchard',
     id: 1,
@@ -20,7 +18,7 @@ export const projects = [
   {
     title: 'Voting System',
     description: "This was the capstone project in which I was the Project Manager for a Software Engineering class, developed by 3 honors students. It allowed election managers to create elections, voters to vote on the current election, and third parties to gather voter information.",
-      image: `${prefix}/images/votingSystem.png`,
+      image: `./images/votingSystem.png`,
       tags: ['Java', 'SQL', 'JDBC', 'MVC'],
     source: 'https://github.com/nburbach3/ElectronicVoting',
     id: 2,
@@ -28,7 +26,7 @@ export const projects = [
   {
     title: 'Cleaning Services Website',
     description: "I designed a website for a local cleaning company, which was used to advertise their business and recruit employees. This was done using WordPress due to the short time frame and large client needs, with my focus for this project being the design and layout of the website.",
-    image: `${prefix}/images/platProServices.png`,
+    image: `./images/platProServices.png`,
     tags: ['WordPress', 'HTML', 'CSS'],
     source: 'https://www.platproservices.com',
     id: 3,
