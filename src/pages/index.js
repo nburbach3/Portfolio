@@ -1,11 +1,11 @@
-import Acomplishments from './src/components/Acomplishments/Acomplishments';
-import BgAnimation from './src/components/BackgroundAnimation/BackgroundAnimation';
-import Hero from './src/components/Hero/Hero';
-import Projects from './src/components/Projects/Projects';
-import Technologies from './src/components/Technologies/Technologies';
-import Experience from './src/components/Experience/Experience';
-import { Layout } from './src/layout/Layout';
-import { Section } from './src/styles/GlobalComponents';
+import Acomplishments from '../components/Acomplishments/Acomplishments';
+import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
+import Hero from '../components/Hero/Hero';
+import Projects from '../components/Projects/Projects';
+import Technologies from '../components/Technologies/Technologies';
+import Experience from '../components/Experience/Experience';
+import { Layout } from '../layout/Layout';
+import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
   return (
