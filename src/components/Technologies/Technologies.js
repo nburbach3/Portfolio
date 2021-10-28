@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiJava, DiReact, DiMsqlServer, DiMysql, DiFirebase } from 'react-icons/di';
+import { DiJava, DiReact, DiFirebase } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 

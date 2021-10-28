@@ -17,6 +17,6 @@ export const HeroSection = styled.div`
   }
 `;
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled.span`
   color: #fff;
 `;
